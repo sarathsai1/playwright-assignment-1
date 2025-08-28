@@ -1,0 +1,22 @@
+[
+    {
+        "keyword": "sauce",
+        "expectedResults": 6,
+        "description": "Search for 'sauce'"
+    },
+    {
+        "keyword": "backpack",
+        "expectedResults": 1,
+        "description": "Search for specific product"
+    },
+    {
+        "keyword": "invalid_product",
+        "expectedResults": 0,
+        "description": "Search for non-existent product"
+    },
+    {
+        "keyword": "",
+        "expectedResults": 6,
+        "description": "Empty search"
+    }
+]

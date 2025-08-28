@@ -1,0 +1,45 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report",
+    "allure:generate": "npx allure generate allure-results --clean -o allure-report",
+    "allure:open": "npx allure open allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
+    "allure-playwright": "^3.3.3",
+    "exceljs": "^4.4.0",
+    "xlsx": "^0.18.5"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "adler-32": "^1.3.1",
+    "allure-js-commons": "^3.3.3",
+    "cfb": "^1.2.2",
+    "charenc": "^0.0.2",
+    "codepage": "^1.15.0",
+    "crc-32": "^1.2.2",
+    "crypt": "^0.0.2",
+    "frac": "^1.1.2",
+    "init": "^0.1.2",
+    "is-buffer": "^1.1.6",
+    "md5": "^2.3.0",
+    "playwright": "^1.55.0",
+    "playwright-core": "^1.55.0",
+    "ssf": "^0.11.2",
+    "undici-types": "^7.10.0",
+    "wmf": "^1.0.2",
+    "word": "^0.3.0"
+  }
+}

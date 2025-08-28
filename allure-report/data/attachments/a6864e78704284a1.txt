@@ -1,0 +1,3 @@
+Error reading JSON file C:\Users\SARATHSAI\Desktop\assignment\test-data\credentials.json: ENOENT: no such file or directory, access 'C:\Users\SARATHSAI\Desktop\assignment\test-data\credentials.json'
+Failed to load JSON data, using fallback data: Failed to read JSON file: ENOENT: no such file or directory, access 'C:\Users\SARATHSAI\Desktop\assignment\test-data\credentials.json'
+No test data available to run tests
